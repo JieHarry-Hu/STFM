@@ -22,13 +22,12 @@
 - PyTorchVideo: `pip install pytorchvideo`
 - Decord: `pip install decord`
 
-Different from the  [SlowFast](https://github.com/facebookresearch/SlowFast) repository, we remove some codes using  [Detectron2](https://github.com/facebookresearch/detectron2) for easy installation, which are about detection and visulazation. If you want to used them, please follow the [SlowFast](https://github.com/facebookresearch/SlowFast) repository.
 
-## Build UniFormer
+## Build STFM
 After having the above dependencies, run:
 ```shell
-git clone https://github.com/Sense-X/UniFormer
-cd UniFormer/video_classification
+git clone https://github.com/JieHarry-Hu/STFM
+cd STFM
 python setup.py build develop
 ```
 
